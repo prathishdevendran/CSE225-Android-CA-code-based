@@ -30,38 +30,7 @@
 
 
 
-        <activity
-            android:name=".ui.theme.activity3_campus.Activity_3_Campus"
-            android:exported="true"
-            android:label="@string/title_activity_activity3_campus"
-            android:theme="@style/Theme.MyActivity4App" >
-        </activity>
-        <activity
-            android:name=".ui.theme.activity2_List.Activity_2_List"
-            android:exported="true"
-            android:label="@string/title_activity_activity2_list"
-            android:theme="@style/Theme.MyActivity4App" >
-        </activity>
-        <activity
-            android:name=".RunDemoActivity"
-            android:exported="true"
-            android:label="@string/title_activity_run_demo_activitt"
-            android:theme="@style/Theme.MyActivity4App" />
-        <activity
-            android:name=".ui.theme.activity1_ICC.Activity_1_ICC"
-            android:exported="true"
-            android:label="@string/title_activity_activity1_icc"
-            android:theme="@style/Theme.MyActivity4App" />
-        <activity
-            android:name=".ui.theme.activity4_Basic_Intent.MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.MyActivity4App" />
-        <activity
-            android:name=".ui.theme.activity4_Basic_Intent.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MyActivity4App" />
+
     </application>
 
 </manifest>
