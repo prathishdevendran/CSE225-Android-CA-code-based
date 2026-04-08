@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyActivity4App" >
+
+        <receiver
+            android:name=".ui.theme.Android_CA.AlarmReceiver"
+            android:exported="true"/>
+        <activity
+            android:name=".ui.theme.Android_CA.TaskRemainderApp"
+            android:exported="true"
+            android:label="@string/title_activity_task_remainder_app"
+            android:theme="@style/Theme.MyActivity4App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".ui.theme.activity3_campus.Activity_3_Campus"
+            android:exported="true"
+            android:label="@string/title_activity_activity3_campus"
+            android:theme="@style/Theme.MyActivity4App" >
+        </activity>
+        <activity
+            android:name=".ui.theme.activity2_List.Activity_2_List"
+            android:exported="true"
+            android:label="@string/title_activity_activity2_list"
+            android:theme="@style/Theme.MyActivity4App" >
+        </activity>
+        <activity
+            android:name=".RunDemoActivity"
+            android:exported="true"
+            android:label="@string/title_activity_run_demo_activitt"
+            android:theme="@style/Theme.MyActivity4App" />
+        <activity
+            android:name=".ui.theme.activity1_ICC.Activity_1_ICC"
+            android:exported="true"
+            android:label="@string/title_activity_activity1_icc"
+            android:theme="@style/Theme.MyActivity4App" />
+        <activity
+            android:name=".ui.theme.activity4_Basic_Intent.MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MyActivity4App" />
+        <activity
+            android:name=".ui.theme.activity4_Basic_Intent.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyActivity4App" />
+    </application>
+
+</manifest>
